@@ -1,6 +1,6 @@
 # MEL.md
 
-This is a hackathon project: a half-built copy of Plan to Eat, Paprika and Mealime (a recipe box, meal planner and grocery list) that we are turning into a real SaaS product the whole group can use.
+This is a hackathon project: a half-built copy of Plan to Eat and Paprika (a recipe box, meal planner and grocery list) that we are turning into a real SaaS product the whole group can use.
 
 ## The stack
 

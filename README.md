@@ -1,9 +1,9 @@
 # Zombie Cook
 
-> A half-built copy of **Paprika / Plan to Eat / Mealime**. It runs, it kind of works, and it is not ready for real users.
+> A half-built copy of **Plan to Eat / Paprika**. It runs, it kind of works, and it is not ready for real users.
 > Your job tonight: bring it back to life.
 
-**Replaces:** Plan to Eat (from $5.95/month), Paprika and Mealime Pro
+**Replaces:** Plan to Eat (from $5.95/month) and Paprika
 
 **Live demo:** https://zombie-cook.vercel.app (a shared demo: data resets whenever the server restarts)
 <!-- Price verified 2026-10-29 at https://www.plantoeat.com/pricing : "$5.95/ month" billed monthly, or "$49/ year". Mealime Pro price not found: mealime.com/pricing shows no Pro price and says Mealime will shut down on October 21, 2026. -->
