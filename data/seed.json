@@ -1,0 +1,149 @@
+{
+  "users": [
+    { "id": "u1", "name": "Maya Chen", "color": "#4b36d9" },
+    { "id": "u2", "name": "Luis Ortega", "color": "#3f8f3a" },
+    { "id": "u3", "name": "Priya Nair", "color": "#c2562f" }
+  ],
+  "recipes": [
+    {
+      "id": "1001", "ownerId": "u1", "title": "Weeknight Chicken Fried Rice", "servings": 4, "minutes": 25,
+      "tags": ["dinner", "quick", "rice"],
+      "ingredients": [
+        { "amount": 3, "unit": "cup", "name": "cooked rice" },
+        { "amount": 2, "unit": "", "name": "chicken breasts" },
+        { "amount": 2, "unit": "", "name": "eggs" },
+        { "amount": 1, "unit": "", "name": "Onion" },
+        { "amount": 1, "unit": "cup", "name": "frozen peas" },
+        { "amount": 3, "unit": "tbsp", "name": "soy sauce" },
+        { "amount": 2, "unit": "tbsp", "name": "olive oil" }
+      ],
+      "steps": ["Cut the chicken into small pieces and cook it in the oil until it is white all the way through.", "Push the chicken to the side and scramble the eggs in the pan.", "Add the onion, peas and rice. Stir for 5 minutes.", "Add the soy sauce and stir again."],
+      "notes": "Day old rice works best.", "source": "Mom's recipe card"
+    },
+    {
+      "id": "1002", "ownerId": "u1", "title": "Banana Oat Pancakes", "servings": 3, "minutes": 20,
+      "tags": ["breakfast", "kids", "sweet"],
+      "ingredients": [
+        { "amount": 1, "unit": "cup", "name": "flour" },
+        { "amount": 1, "unit": "cup", "name": "rolled oats" },
+        { "amount": 2, "unit": "", "name": "ripe bananas" },
+        { "amount": 1, "unit": "", "name": "egg" },
+        { "amount": 1, "unit": "cup", "name": "milk" },
+        { "amount": 1, "unit": "tbsp", "name": "butter" }
+      ],
+      "steps": ["Mash the bananas in a bowl.", "Stir in the egg, milk, flour and oats.", "Melt a little butter in a pan. Pour in small rounds of batter.", "Flip when you see bubbles. Cook until gold on both sides."],
+      "notes": "", "source": ""
+    },
+    {
+      "id": "1003", "ownerId": "u1", "title": "Sheet Pan Veggie Tacos", "servings": 4, "minutes": 35,
+      "tags": ["dinner", "vegetarian"],
+      "ingredients": [
+        { "amount": 1, "unit": "can", "name": "black beans" },
+        { "amount": 2, "unit": "", "name": "bell peppers" },
+        { "amount": 1, "unit": "", "name": "onion" },
+        { "amount": 2, "unit": "tbsp", "name": "Olive oil" },
+        { "amount": 8, "unit": "", "name": "small tortillas" },
+        { "amount": 1, "unit": "cup", "name": "shredded cheese" }
+      ],
+      "steps": ["Heat the oven to 425 F.", "Slice the peppers and onion. Toss them on a pan with the beans and oil.", "Bake for 20 minutes.", "Fill the tortillas and top with cheese."],
+      "notes": "Add hot sauce if you like heat.", "source": ""
+    },
+    {
+      "id": "1004", "ownerId": "u1", "title": "Lemon Garlic Salmon", "servings": 2, "minutes": 20,
+      "tags": ["dinner", "fish", "quick"],
+      "ingredients": [
+        { "amount": 2, "unit": "", "name": "salmon fillets" },
+        { "amount": 1, "unit": "", "name": "lemon" },
+        { "amount": 2, "unit": "cloves", "name": "garlic" },
+        { "amount": 20, "unit": "g", "name": "butter" },
+        { "amount": 1, "unit": "tbsp", "name": "olive oil" }
+      ],
+      "steps": ["Heat the oil in a pan.", "Cook the salmon skin side down for 5 minutes.", "Flip it. Add butter, garlic and lemon juice.", "Cook 3 more minutes and serve."],
+      "notes": "Salmon is fish. Check with guests about allergies.", "source": ""
+    },
+    {
+      "id": "1005", "ownerId": "u2", "title": "Sunday Tomato Soup", "servings": 3, "minutes": 40,
+      "tags": ["lunch", "soup", "vegetarian"],
+      "ingredients": [
+        { "amount": 1, "unit": "can", "name": "crushed tomatoes" },
+        { "amount": 1, "unit": "cup", "name": "vegetable broth" },
+        { "amount": 1, "unit": "", "name": "onion" },
+        { "amount": 1, "unit": "cup", "name": "milk" },
+        { "amount": 1, "unit": "tbsp", "name": "butter" }
+      ],
+      "steps": ["Cook the chopped onion in butter until soft.", "Add the tomatoes and broth. Simmer 20 minutes.", "Blend until smooth.", "Stir in the milk and heat it through."],
+      "notes": "", "source": "https://example.com/classic-tomato-soup"
+    },
+    {
+      "id": "1006", "ownerId": "u2", "title": "Peanut Noodle Bowl", "servings": 2, "minutes": 20,
+      "tags": ["lunch", "dinner", "noodles"],
+      "ingredients": [
+        { "amount": 200, "unit": "g", "name": "rice noodles" },
+        { "amount": 3, "unit": "tbsp", "name": "peanut butter" },
+        { "amount": 2, "unit": "tbsp", "name": "soy sauce" },
+        { "amount": 1, "unit": "", "name": "carrot" },
+        { "amount": 1, "unit": "tbsp", "name": "lime juice" }
+      ],
+      "steps": ["Boil the noodles as the box says. Drain them.", "Whisk the peanut butter, soy sauce and lime juice with a splash of warm water.", "Toss the noodles with the sauce and grated carrot."],
+      "notes": "", "source": ""
+    },
+    {
+      "id": "1007", "ownerId": "u2", "title": "Veggie Omelet", "servings": 1, "minutes": 10,
+      "tags": ["breakfast", "quick", "eggs"],
+      "ingredients": [
+        { "amount": 3, "unit": "", "name": "eggs" },
+        { "amount": 0.5, "unit": "cup", "name": "spinach" },
+        { "amount": 0.25, "unit": "cup", "name": "shredded cheese" },
+        { "amount": 1, "unit": "tsp", "name": "butter" }
+      ],
+      "steps": ["Beat the eggs with a pinch of salt.", "Melt the butter in a small pan and pour in the eggs.", "Add spinach and cheese. Fold the omelet in half."],
+      "notes": "", "source": ""
+    },
+    {
+      "id": "1008", "ownerId": "u3", "title": "Chickpea Curry", "servings": 3, "minutes": 30,
+      "tags": ["dinner", "vegan", "rice"],
+      "ingredients": [
+        { "amount": 2, "unit": "can", "name": "chickpeas" },
+        { "amount": 1, "unit": "can", "name": "coconut milk" },
+        { "amount": 1, "unit": "", "name": "onion" },
+        { "amount": 2, "unit": "tbsp", "name": "curry powder" },
+        { "amount": 1, "unit": "cup", "name": "rice" }
+      ],
+      "steps": ["Cook the onion in a little oil until soft.", "Add the curry powder and stir for 1 minute.", "Add chickpeas and coconut milk. Simmer 15 minutes.", "Serve over cooked rice."],
+      "notes": "", "source": ""
+    },
+    {
+      "id": "1009", "ownerId": "u3", "title": "Overnight Oats", "servings": 1, "minutes": 5,
+      "tags": ["breakfast", "no-cook"],
+      "ingredients": [
+        { "amount": 0.5, "unit": "cup", "name": "rolled oats" },
+        { "amount": 0.5, "unit": "cup", "name": "milk" },
+        { "amount": 1, "unit": "tbsp", "name": "honey" },
+        { "amount": 0.25, "unit": "cup", "name": "berries" }
+      ],
+      "steps": ["Mix the oats, milk and honey in a jar.", "Put it in the fridge overnight.", "Top with berries in the morning."],
+      "notes": "", "source": ""
+    },
+    {
+      "id": "1010", "ownerId": "u3", "title": "Garlic Butter Pasta", "servings": 4, "minutes": 20,
+      "tags": ["dinner", "quick", "vegetarian"],
+      "ingredients": [
+        { "amount": 400, "unit": "g", "name": "spaghetti" },
+        { "amount": 4, "unit": "tbsp", "name": "butter" },
+        { "amount": 4, "unit": "cloves", "name": "garlic" },
+        { "amount": 0.5, "unit": "cup", "name": "grated parmesan" }
+      ],
+      "steps": ["Boil the spaghetti. Save a cup of the water.", "Melt the butter and cook the garlic for 1 minute.", "Toss the spaghetti in the butter with a splash of pasta water.", "Top with parmesan."],
+      "notes": "", "source": ""
+    }
+  ],
+  "plan": [
+    { "userId": "u1", "day": 0, "meal": "breakfast", "recipeId": "1002" },
+    { "userId": "u1", "day": 0, "meal": "dinner", "recipeId": "1001" },
+    { "userId": "u1", "day": 1, "meal": "dinner", "recipeId": "1003" },
+    { "userId": "u1", "day": 2, "meal": "breakfast", "recipeId": "1002" },
+    { "userId": "u1", "day": 3, "meal": "dinner", "recipeId": "1004" },
+    { "userId": "u1", "day": 4, "meal": "dinner", "recipeId": "1001" }
+  ],
+  "checked": ["eggs"]
+}
