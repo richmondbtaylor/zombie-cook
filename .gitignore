@@ -9,3 +9,6 @@ data/db.json
 .DS_Store
 .vercel
 .env*
+
+.vercel
+.env*
